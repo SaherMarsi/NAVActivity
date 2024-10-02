@@ -1,0 +1,46 @@
+#nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+}
+
+#nav ul{
+    background: beige;
+    border: solid black;
+    border-radius: 15px;
+    padding: 25px;
+}
+#inp{
+    border: none;
+    background-color: beige;
+}
+#nav ul li, form{
+    display: inline;
+    border: 5px black;
+    padding: 15px;
+}
+#nav ul li{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    border: 4px black;
+    border-radius: 5px;
+}
+
+a:visited{
+    color:black
+}
+
+form input{
+    border-radius: 3px black;
+    text-align: center;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin: 0px;
+    padding: 5px;
+}
+
